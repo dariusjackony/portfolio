@@ -91,7 +91,7 @@
         display: none;
     }
     .project-card {
-        flex: 0 0 80%;
+        flex: 0 0 90%;
         scroll-snap-align: start;
         margin-top: 0;
     }
@@ -99,6 +99,7 @@
         scroll-snap-type: x mandatory;
     }
     .projects-subtitle {
-        max-width: 350px;
+        max-width: 320px;
+        margin: 0 auto;
     }
 }
