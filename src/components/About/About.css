@@ -1,0 +1,81 @@
+.about-main-section{
+    margin-top: 40px;
+    text-align: center;
+}
+.about-title {
+    color: var(--text-main);
+    font-size: 1.8rem;
+}
+.abt-img{
+    width: 100%;
+    max-width: 300px;
+    border-radius: 8px;
+}
+.about-content {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    margin-top: 40px;
+    align-items: flex-start;
+    gap: 5rem;
+}
+.about-details {
+    margin-top: -10px;
+}
+.details-card {
+    max-width: 400px;
+    text-align: left;
+}
+.about-para {
+    font-size: 1.2rem;
+    line-height: 1.4;
+    color: var(--text-muted);
+    margin-top: 10px;
+}
+.about-btn {
+    margin-top: 25px;
+    padding: 10px 50px;
+    border: none;
+    border-radius: 8px;
+    background-color: var(--blue-btn);
+    color: white;
+    font-size: 1rem;
+}
+
+@media (max-width: 768px) {
+    .abt-img{
+        max-width: 250px;
+    }
+    .details-card {
+        max-width: 350px;
+    } 
+    .about-para {
+        line-height: 1.2;
+    }
+    .about-content {
+        gap: 4rem;
+    }
+}
+@media (max-width: 480px) {
+    .about-content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 20px;
+    }
+    .details-card {
+        max-width: 300px;
+        margin-top: -20px;
+    } 
+    .about-para {
+        font-size: 1.2rem;
+        text-align: left;
+    }
+    .about-title {
+        color: var(--text-main);
+        font-size: 1.3rem;
+   }
+   .abt-img {
+        max-width: 300px;
+   }
+}

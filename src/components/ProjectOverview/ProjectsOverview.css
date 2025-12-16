@@ -1,0 +1,39 @@
+.projects-overview {
+    padding-top: 10px;
+    text-align: center;
+    background-color: #1e1f22;
+    max-width: 700px;
+    margin: 40px auto 0;
+    border-radius: 10px;
+}
+.projects-overview-container {
+    padding: 30px;
+}
+.projects-overview-title {
+    font-size: 1.8rem;
+    color: var(--text-main);
+}
+.project-overview-subtitle {
+    font-size: 1.2rem;
+    color: var(--text-muted);
+    max-width: 600px;
+    margin: 0 auto;
+}
+.projects-overview-content {
+    margin-top: 10px;
+}
+.p-o-btn {
+    margin-top: 25px;
+    padding: 10px 50px;
+    border: none;
+    border-radius: 8px;
+    background-color: var(--blue-btn);
+    color: white;
+    font-size: 1rem;
+}
+
+@media (max-width: 480px) {
+    .projects-overview {
+        max-width: 340px;
+    }
+}

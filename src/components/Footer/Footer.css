@@ -1,0 +1,9 @@
+.footer {
+    margin-top: 40px;
+    background-color: #1e1f22;
+    padding: 10px;
+}
+.footer-info {
+    text-align: center;
+    color: var(--text-muted);
+}

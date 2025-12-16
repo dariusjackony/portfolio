@@ -1,0 +1,17 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+   --bg--main: #2b2d31;
+   --bg-card: #1e1f22;
+   --text-main: #f2f3f5;
+   --text-muted: #b5bac1;
+   --blue-btn: #0f1ba1;
+   --blue-btn-hover: #4752c4;
+}
+body {
+  font-family: 'Montserrat', sans-serif;
+  background-color: var(--bg--main);
+}
