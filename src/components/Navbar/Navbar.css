@@ -3,8 +3,14 @@
  justify-content: space-between;
  align-items: center;
  padding: 1.5rem;
- background-color: var(--blue-btn);
+ background-color: rgb(0, 0, 0, 0.3);
  color: var(--text-main);
+ position: fixed;
+ top: 0;
+ left: 0;
+ width: 100%;
+ z-index: 100;
+ backdrop-filter: blur(10px);
 }
 .nav-logo {
     font-size: 1.8rem;
@@ -16,7 +22,7 @@
     display: flex;
     list-style: none;
     gap: 30px;
-    margin-right: 50px;
+    margin-right: 10px;
     position: relative;
 }
 .menu-btn {
@@ -36,20 +42,26 @@
     font-size: 25px;
     margin-right: 10px;
   }
+
   .nav-links {
     display: none;
     flex-direction: column;
-    position: absolute;
-    top: 79px;
-    right: -50px;
-    background: #1e1f22;
-    padding: 1rem;
+    position: absolute; 
+    top: 100%;        
+    right: 0;           
+    background: rgba(30, 31, 34, 0.95); 
+    padding: 1rem 1.5rem;
     border-radius: 8px;
+    z-index: 200;     
+    width: 200px;
   }
+
   .nav-links.open {
     display: flex;
   }
+
   .nav-links li {
-    margin-top: -8px;
+    margin-top: 10px; 
   }
 }
+

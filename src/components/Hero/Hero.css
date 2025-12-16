@@ -1,6 +1,7 @@
 .hero-main-container {
   position: relative;
   min-height: 80vh;
+  z-index: 1;
   overflow: hidden;
   background: radial-gradient(circle at bottom, #081035, #020202);
 }
@@ -57,10 +58,10 @@
 
 @media (max-width: 480px) {
    .hero-main-container {
-    min-height: 55vh;
+    min-height: 75vh;
   }
   .hero-content {
-    margin-top: 30px;
+    margin-top: 9rem;
   }
 
   .hero-title {
