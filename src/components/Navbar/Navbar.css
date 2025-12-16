@@ -28,9 +28,11 @@
 .menu-btn {
     display: none;
 }
-.nav-links li {
+.nav-links li a {
     font-size: 1.3rem;
     cursor: pointer;
+    color: var(--text-main);
+    text-decoration: none;
 }
 @media (max-width: 768px) {
   .menu-btn {
@@ -62,6 +64,12 @@
 
   .nav-links li {
     margin-top: 10px; 
+  }
+}
+@media (max-width: 480px) {
+  .nav-logo {
+    font-size: 1.5rem;
+    margin-left: 2px;
   }
 }
 

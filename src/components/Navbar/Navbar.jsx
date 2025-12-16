@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { Link } from "react-router-dom";
 import "./Navbar.css";
 export default function Navbar(){
     const [open , setOpen] = useState(false);
@@ -14,10 +15,10 @@ export default function Navbar(){
              ☰
           </button>
           <ul className={`nav-links ${open? "open": " "}`}>
-             <li>Home</li>
-             <li>Projects</li>
-             <li>Blog</li>
-             <li>Contact</li>
+            <li><Link to="/">Home</Link></li>
+            <li><Link to="/ProjectsPage">Projects</Link></li>
+            <li><Link>Blog</Link></li>
+             <li><Link to="/Contact">Contact</Link></li>
           </ul>
         </nav>
     )

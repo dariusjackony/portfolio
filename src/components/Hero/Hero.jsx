@@ -72,7 +72,7 @@ export default function Hero() {
         
         ctx.fillStyle = "rgba(66, 58, 39, 0.6)";
         ctx.fillRect(x + 15, h - 160, 10, 10);
-        ctx.fillStyle = "#01030f";
+        ctx.fillStyle = "#13172eff";
       }
     }
 
@@ -137,7 +137,7 @@ export default function Hero() {
 
       <div className="hero-content">
         <p className="hero-title">
-          Building modern, responsive web experiences
+          Countless Possibilities on Earth
         </p>
         <button className="hero-btn">Browse Projects</button>
       </div>

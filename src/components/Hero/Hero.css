@@ -1,6 +1,6 @@
 .hero-main-container {
   position: relative;
-  min-height: 80vh;
+  min-height: 90vh;
   z-index: 1;
   overflow: hidden;
   background: radial-gradient(circle at bottom, #081035, #020202);
@@ -23,13 +23,13 @@
   align-items: center;
   color: var(--text-main);
   padding: 10rem;
-  margin-top: 30px;
+  margin-top: 60px;
   text-align: center;
 }
 
 .hero-title {
   font-size: 2.5rem;
-  max-width: 900px;
+  font-weight: bold;
 }
 
 .hero-btn {
@@ -58,13 +58,14 @@
 
 @media (max-width: 480px) {
    .hero-main-container {
-    min-height: 75vh;
+    min-height: 65vh;
   }
   .hero-content {
-    margin-top: 9rem;
+    margin-top: 6rem;
   }
 
   .hero-title {
     font-size: 1.3rem;
+    max-width: 800px;
   }
 }
