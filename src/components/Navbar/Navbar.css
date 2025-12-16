@@ -10,6 +10,7 @@
     font-size: 1.8rem;
     font-weight: bold;
     margin-left: 20px;
+    font-family: 'Righteous', cursive;
 }
 .nav-links {
     display: flex;
