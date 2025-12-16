@@ -73,7 +73,7 @@
         grid-template-columns: repeat(2, 1fr);
         gap: 1.5rem;
         margin: 40px auto 0;
-        max-width: 600px;
+        max-width: 300px;
  }
 }
 @media (max-width: 480px) {
@@ -83,7 +83,9 @@
         gap: 15px;
         scroll-behavior: smooth;
         padding: 10px 0;
-
+    }
+    .project-img {
+        height: 170px;
     }
     .projects-details::-webkit-scrollbar {
         display: none;
