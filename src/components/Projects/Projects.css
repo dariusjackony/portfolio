@@ -73,7 +73,7 @@
         grid-template-columns: repeat(2, 1fr);
         gap: 1.5rem;
         margin: 40px auto 0;
-        max-width: 300px;
+        max-width: 600px;
  }
 }
 @media (max-width: 480px) {
