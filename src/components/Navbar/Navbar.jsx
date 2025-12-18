@@ -15,10 +15,10 @@ export default function Navbar(){
              ☰
           </button>
           <ul className={`nav-links ${open? "open": " "}`}>
-            <li><Link to="/">Home</Link></li>
-            <li><Link to="/ProjectsPage">Projects</Link></li>
-            <li><Link to="/BlogData">Blog</Link></li>
-             <li><Link to="/Contact">Contact</Link></li>
+            <li><Link to="/" onClick={() => setOpen(false)}>Home</Link></li>
+            <li><Link to="/ProjectsPage" onClick={() => setOpen(false)}>Projects</Link></li>
+            <li><Link to="/BlogData" onClick={() => setOpen(false)}>Blog</Link></li>
+             <li><Link to="/Contact" onClick={() => setOpen(false)}>Contact</Link></li>
           </ul>
         </nav>
     )
