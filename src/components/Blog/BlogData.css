@@ -30,12 +30,12 @@
 }
 .card-title {
     color: var(--text-main);
-    font-size: 1.3rem;
+    font-size: 1.1rem;
 }
 .card-subtitle {
     color: var(--text-muted);
     margin-top: 5px;
-    font-size: 1.2rem;
+    font-size: 1rem;
 }
 .read-btn {
     margin-top: 25px;
