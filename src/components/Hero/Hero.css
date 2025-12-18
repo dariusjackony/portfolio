@@ -58,10 +58,10 @@
 
 @media (max-width: 480px) {
    .hero-main-container {
-    min-height: 65vh;
+    min-height: 80vh;
   }
   .hero-content {
-    margin-top: 4rem;
+    margin-top: 8rem;
   }
 
   .hero-title {
