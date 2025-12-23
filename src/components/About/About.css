@@ -40,6 +40,7 @@
     background-color: var(--blue-btn);
     color: white;
     font-size: 1rem;
+    cursor: pointer;
 }
 
 @media (max-width: 768px) {

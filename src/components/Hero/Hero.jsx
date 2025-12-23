@@ -1,6 +1,6 @@
 import "./Hero.css";
 import { useEffect } from "react";
-
+import { Link } from "react-router-dom";
 export default function Hero() {
 
   useEffect(() => {
@@ -139,7 +139,9 @@ export default function Hero() {
         <p className="hero-title">
           Countless Possibilities on Earth
         </p>
-        <button className="hero-btn">Browse Projects</button>
+        <Link to="./ProjectsPage">
+           <button className="hero-btn">Browse Projects</button>
+        </Link>
       </div>
     </section>
   );

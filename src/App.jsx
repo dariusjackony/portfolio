@@ -3,6 +3,7 @@ import ProjectsPage from "./pages/ProjectsPage";
 import Navbar from "./components/Navbar/Navbar";
 import Contact from "./components/Contact/Contact";
 import BlogData from "./components/Blog/BlogData";
+import ContactPage from "./pages/ContactPage";
 import BlogDetails from "./components/Blog/BlogDetails";
 import { Routes, Route } from "react-router-dom";
 export default function App(){
@@ -15,6 +16,7 @@ export default function App(){
        <Route path="/Contact" element={<Contact />} />
        <Route path="/BlogData" element={<BlogData />} />
        <Route path="/BlogData/:postId" element={<BlogDetails />} />
+       <Route path="/ContactPage" element={<ContactPage />} />
      </Routes>
     </>
   )

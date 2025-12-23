@@ -1,4 +1,5 @@
 import "./ProjectsOverview.css";
+import { Link } from "react-router-dom";
 export default function ProjectsOverview(){
     return(
         <section className="projects-overview">
@@ -9,7 +10,9 @@ export default function ProjectsOverview(){
                    I build projects that combine clean design with simple logic,
                    making sure they work well on all devices and easy to use.
                   </p>
-                   <button className="p-o-btn">Open Projects</button>
+                  <Link to="/ProjectsPage">
+                    <button className="p-o-btn">Open Projects</button>
+                  </Link>
                 </div>
             </div>
         </section>

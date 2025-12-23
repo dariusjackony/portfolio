@@ -1,5 +1,6 @@
 import MyPic from "../../assets/--/0day.jpg";
 import "./About.css";
+import { Link } from "react-router-dom";
 export default function About() {
     const aboutData = [
         {
@@ -22,7 +23,9 @@ export default function About() {
                        <div className="details-card" key={i}>
                           <p className="about-para">{data.top}</p>
                           <p className="about-para">{data.bottom}</p>
-                          <button className="about-btn">Contact Me</button>
+                          <Link to="./ContactPage">
+                             <button className="about-btn">Contact Me</button>
+                          </Link>
                        </div>
                     ))}
                 </div>
