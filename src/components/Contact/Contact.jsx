@@ -17,13 +17,13 @@ export default function Contact(){
             <div className="socials">
                 <span>Find Me On</span>
                 <div className="social-link">
-                    <a href="">
+                    <a href="https://github.com/dariusjackony" target="_blank">
                         <FaGithub />
                     </a>
-                    <a href="">
+                    <a href="https://www.linkedin.com/in/darius-jackony-93a04a250/" target="_blank">
                         <FaLinkedin />
                     </a>
-                    <a href="">
+                    <a href="https://x.com/0day_RS" target="_blank">
                         <FaTwitter />
                     </a>
                 </div>
