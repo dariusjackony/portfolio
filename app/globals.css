@@ -1,6 +1,7 @@
 @import "tailwindcss";
 
+@custom-variant dark (&:where(.dark, .dark *));
 body {
-  font-weight: 250;
+  font-weight: 290;
   font-family: var(--font-inter), sans-serif;
 }
