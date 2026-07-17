@@ -51,37 +51,31 @@ export default function Links(){
                     Whether it's code, articles, or new projects, you can find me across these 
                     platforms. Feel free to connect, collaborate, or say hello.
                 </p>
-                <div className="flex flex-col lg:justify-center lg:items-center lg:flex-wrap gap-4 mt-5">
-                    <Link href="/"
-                    className="flex items-center gap-2"
-                    >
-                    <FaWhatsapp size={22}/>
-                     Whatsapp
-                    </Link>
-                    <Link href="/" 
-                    className="flex items-center gap-2"
-                    >
-                    <FaYoutube  size={22}/>
-                     Youtube
-                    </Link>
-                    <Link href="/"
-                    className="flex items-center gap-2"
-                    >
+                <div className="flex flex-col gap-4 mt-5 lg:flex-row lg:flex-wrap lg:items-center lg:justify-center">
+                <Link href="/" className="flex items-center gap-2">
+                    <FaWhatsapp size={22} />
+                    WhatsApp
+                </Link>
+
+                <Link href="/" className="flex items-center gap-2">
+                    <FaYoutube size={22} />
+                    YouTube
+                </Link>
+
+                <Link href="/" className="flex items-center gap-2">
                     <FaTwitter size={22} />
-                     Twitter
-                    </Link>
-                    <Link href="/"
-                    className="flex items-center gap-2"
-                    >
-                    <FaEnvelope  size={22}/>
-                     Email
-                    </Link>
-                    <Link href="/"
-                    className="flex items-center gap-2"
-                    >
-                    <FaLinkedin  size={22}/>
-                     Linkedln
-                    </Link>
+                    Twitter
+                </Link>
+
+                <Link href="/" className="flex items-center gap-2">
+                    <FaEnvelope size={22} />
+                    Email
+                </Link>
+
+                <Link href="/" className="flex items-center gap-2">
+                    <FaLinkedin size={22} />
+                    LinkedIn
+                </Link>
                 </div>
                 <div className="mt-10">
                     <h2 className="">Subscribe to my newsletter</h2>
