@@ -7,14 +7,14 @@ export default function Hero(){
         <div className="px-4 mt-5 flex flex-col gap-5 md:flex-row max-w-4xl mx-auto ">
             <div>
                 <h2 className="text-3xl font-medium tracking-wide">System Designer. Problem Solver.</h2>
-                <div className="mt-3 text-xl">
-                    <p className="mt-1 text-lg text-gray-700 dark:text-white  leading-relaxed ">
+                <div className="mt-3">
+                    <p className="mt-1 text-gray-700 dark:text-white  leading-relaxed ">
                       I build software that is fast, secure, and easy to use.
                     </p>
-                    <p className="mt-1 text-lg text-gray-700 dark:text-white leading-relaxed">
+                    <p className="mt-1 text-gray-700 dark:text-white leading-relaxed">
                       I'm passionate about web development, software architecture, databases, networking, and IT solutions.
                     </p>
-                    <p className="mt-1 text-lg text-gray-700 leading-relaxed dark:text-white">
+                    <p className="mt-1 text-gray-700 leading-relaxed dark:text-white">
                       Here you'll find tutorials, project breakdowns, development tips, and practical insights from building real-world systems.
                     </p>
                 </div>
