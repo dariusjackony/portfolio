@@ -54,33 +54,32 @@ export default function Links(){
                 <div className="flex justify-center items center flex-wrap gap-4 mt-8 text-lg">
                     <Link href="/"
                     className="flex items-center gap-2"
-
                     >
-                    <FaWhatsapp size={24}/>
+                    <FaWhatsapp size={22}/>
                      Whatsapp
                     </Link>
                     <Link href="/" 
                     className="flex items-center gap-2"
                     >
-                    <FaYoutube  size={24}/>
+                    <FaYoutube  size={22}/>
                      Youtube
                     </Link>
                     <Link href="/"
                     className="flex items-center gap-2"
                     >
-                    <FaTwitter size={24} />
+                    <FaTwitter size={22} />
                      Twitter
                     </Link>
                     <Link href="/"
                     className="flex items-center gap-2"
                     >
-                    <FaEnvelope  size={24}/>
+                    <FaEnvelope  size={22}/>
                      Email
                     </Link>
                     <Link href="/"
                     className="flex items-center gap-2"
                     >
-                    <FaLinkedin  size={24}/>
+                    <FaLinkedin  size={22}/>
                      Linkedln
                     </Link>
                 </div>
