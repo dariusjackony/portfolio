@@ -4,7 +4,7 @@ import Link from "next/link";
 import { Download } from "lucide-react";
 export default function Hero(){
     return(
-        <div className="px-4 mt-5 flex flex-col gap-5 md:flex-row max-w-4xl mx-auto ">
+        <div className="px-4 mt-2 flex flex-col gap-5 md:flex-row max-w-4xl mx-auto ">
             <div>
                 <h2 className="text-3xl font-medium tracking-wide">System Designer. Problem Solver.</h2>
                 <div className="mt-3">

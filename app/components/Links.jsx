@@ -17,12 +17,6 @@ export default function Links(){
                    the technologies I work with, and see how I design and build modern systems.
                 </p>
                 <div className="flex flex-col gap-3 mt-4 ">
-                 <Link href="/skills"
-                  className="flex gap-2 text-blue-500 underline"
-                 >
-                  <Code />
-                  Skills
-                 </Link>
                  <Link href="/projects"
                   className=" flex gap-2 text-blue-500 underline"
                  >
@@ -34,6 +28,12 @@ export default function Links(){
                   >
                   <Star />
                   Client Reviews
+                 </Link>
+                 <Link href="/skills"
+                  className="flex gap-2 text-blue-500 underline"
+                 >
+                  <Code />
+                  Skills
                  </Link>
                  <Link href="/cofee"
                   className="flex gap-2 text-blue-500 underline"
@@ -52,30 +52,51 @@ export default function Links(){
                     platforms. Feel free to connect, collaborate, or say hello.
                 </p>
                 <div className="flex flex-col gap-4 mt-5 lg:flex-row lg:flex-wrap lg:items-center lg:justify-center">
-                <Link href="/" className="flex items-center gap-2">
-                    <FaWhatsapp size={22} />
-                    WhatsApp
-                </Link>
-
-                <Link href="/" className="flex items-center gap-2">
-                    <FaYoutube size={22} />
-                    YouTube
-                </Link>
-
-                <Link href="/" className="flex items-center gap-2">
-                    <FaTwitter size={22} />
+                <a
+                href="https://wa.me/256793648032?text=Hello%20Darius,%20I%20would%20like%20to%20work%20with%20you."
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center gap-2"
+                >
+                <FaWhatsapp size={22} />
+                WhatsApp
+                </a>
+                <a
+                href="https://www.youtube.com/@Darius0x01"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center gap-2"
+                >
+                <FaYoutube size={22} />
+                YouTube
+                </a>
+                <a
+                href="https://x.com/Darius0x01"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center gap-2"
+                >
+                 <FaTwitter size={22} />
                     Twitter
-                </Link>
-
-                <Link href="/" className="flex items-center gap-2">
-                    <FaEnvelope size={22} />
-                    Email
-                </Link>
-
-                <Link href="/" className="flex items-center gap-2">
-                    <FaLinkedin size={22} />
-                    LinkedIn
-                </Link>
+                </a>
+                <a
+                href="mailto:dariusjackony@gmail.com?subject=Project%20Inquiry"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center gap-2"
+                >
+                 <FaEnvelope size={22} />
+                 Email
+                </a>
+                <a
+                href="www.linkedin.com/in/darius-jackony-93a04a250"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center gap-2"
+                >
+                <FaLinkedin size={22} />
+                LinkedIn
+                </a>
                 </div>
                 <div className="mt-10">
                     <h2 className="">Subscribe to my newsletter</h2>

@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
+import Navbar from "./components/Navbar";
 import Providers from "./provider";
 import { Inter } from "next/font/google";
 
@@ -24,8 +25,9 @@ export default function RootLayout({
        className={inter.variable}
       suppressHydrationWarning
     >
-      <body className="min-h-full flex flex-col">
+      <body>
         <Providers>
+          <Navbar />
           {children}
         </Providers>
       </body>
