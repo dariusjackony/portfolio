@@ -5,15 +5,23 @@ import Navbar from "./components/Navbar";
 import Providers from "./provider";
 import { Inter } from "next/font/google";
 
+
+export const metadata: Metadata = {
+  title: "Darius Jackony",
+  description:
+    "I am Jackony Darius, a full-stack developer specializing in React, Next.js, React Native, and Django.",
+  keywords: [
+    "Darius Jackony",
+    "React Developer",
+    "Next.js",
+    "React Native",
+    "Web Developer Uganda",
+  ],
+};
 const inter = Inter({
   variable: "--font-inter",
   subsets: ["latin"],
 });
-export const metadata: Metadata = {
-  title: "darius jackony",
-  description: "web developer",
-};
-
 export default function RootLayout({
   children,
 }: Readonly<{
