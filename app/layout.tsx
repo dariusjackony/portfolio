@@ -4,7 +4,7 @@ import "./globals.css";
 import Navbar from "./components/Navbar";
 import Providers from "./provider";
 import { Inter } from "next/font/google";
-
+import { Analytics } from "@vercel/analytics/next";
 
 export const metadata: Metadata = {
   title: "Darius Jackony",
@@ -37,6 +37,7 @@ export default function RootLayout({
         <Providers>
           <Navbar />
           {children}
+          <Analytics />
         </Providers>
       </body>
     </html>
