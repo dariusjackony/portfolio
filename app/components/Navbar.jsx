@@ -3,27 +3,41 @@
 import { Moon, Sun } from "lucide-react";
 import { useTheme } from "next-themes";
 import Link from "next/link";
-export default function Navbar(){
+import { useEffect, useState } from "react";
+
+export default function Navbar() {
     const { resolvedTheme, setTheme } = useTheme();
-    return(
+    const [mounted, setMounted] = useState(false);
+
+    useEffect(() => {
+        setMounted(true);
+    }, []);
+
+    return (
         <nav className="px-2 p-4 lg:max-w-4xl lg:m-auto">
-            <div className=" flex items-center justify-between ">
+            <div className="flex items-center justify-between">
                 <Link href="/">
-                  <h1 className="text-xl text-black dark:text-white font-semibold">
-                   Jackony
-                  </h1>
+                    <h1 className="text-xl text-black dark:text-white font-semibold">
+                        Jackony
+                    </h1>
                 </Link>
-                 
-                <button onClick={() => setTheme(resolvedTheme === "dark" ? "light" : "dark")}>
-                    {resolvedTheme === "dark" ? (
-                    <Sun  className="w-6 cursor-pointer h-6 text-blue"/>
-                    ) : (
-                        <Moon className="w-6 cursor-pointer h-6 text-blue" />
-                    )}
-                </button>
+
+                {mounted && (
+                    <button 
+                        onClick={() => 
+                            setTheme(resolvedTheme === "dark" ? "light" : "dark")
+                        }
+                    >
+                        {resolvedTheme === "dark" ? (
+                            <Sun className="w-6 h-6 cursor-pointer text-blue-500" />
+                        ) : (
+                            <Moon className="w-6 h-6 cursor-pointer text-blue-500" />
+                        )}
+                    </button>
+                )}
             </div>
-           
-           <div className="h-px bg-gray-300 my-8"></div>
+
+            <div className="h-px bg-gray-300 my-8"></div>
         </nav>
     )
 }

@@ -1,4 +1,5 @@
 "use client"
+import ecommerce from "../assets/luxury.png";
 import Trial from "../assets/trial.png";
 import Image from "next/image";
 import { FaGithub } from "react-icons/fa";
@@ -7,16 +8,17 @@ export default function Projects(){
     const projects = [
         {
             id: 1,
-            name: "Restaurant Website",
-            // image: Trial,
+            name: "Boutique E-commerce Website",
+            image: ecommerce,
             description:
-            "A modern restaurant website with an interactive menu, online reservations, and a responsive design.",
+            "A modern fashion boutique website featuring a stylish product catalog, category browsing, product details, and a responsive shopping experience for shoes, clothing, and watches.",
             technologies: [
             "Next.js",
+            "Tailwind CSS",
             
             ],
-            liveDemo: "https://",
-            github: "https://github.com/yourusername/restaurant-website",
+            liveDemo: "https://luxury-vintage-store-alpha.vercel.app/",
+            github: "https://github.com/dariusjackony/luxury-vintage-store",
         },
         {
             id: 2,
@@ -70,7 +72,7 @@ export default function Projects(){
                 className="overflow-hidden  border border-gray-200 dark:border-gray-700 bg-white dark:bg-gray-800"
                 >
                 <Image
-                    src={Trial}
+                    src={item.image}
                     alt={item.name}
                     className="w-full h-52 object-cover"
                 />
