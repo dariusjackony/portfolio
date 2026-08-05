@@ -1,6 +1,7 @@
 "use client"
 import ecommerce from "../assets/luxury.png";
 import Trial from "../assets/trial.png";
+import School from "../assets/school.png";
 import Image from "next/image";
 import { FaGithub } from "react-icons/fa";
 import { Monitor } from "lucide-react";
@@ -22,10 +23,10 @@ export default function Projects(){
         },
         {
             id: 2,
-            name: "Business Management Dashboard",
-            image: Trial,
+            name: "School website",
+            image: School,
             description:
-            "A dashboard for managing products, sales, customers, and business performance with real-time analytics.",
+            "A modern school website designed to showcase academics, school life, admissions, and achievements while providing parents and students with easy access to important information..",
             technologies: [
             "React",
             "Tailwind CSS",
