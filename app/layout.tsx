@@ -16,6 +16,9 @@ export const metadata: Metadata = {
     "React Native",
     "Web Developer Uganda",
   ],
+  icons: {
+    icon: "/logo.png",
+  },
 };
 const inter = Inter({
   variable: "--font-inter",

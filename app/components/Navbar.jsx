@@ -17,9 +17,16 @@ export default function Navbar() {
         <nav className="px-2 p-4 lg:max-w-4xl lg:m-auto">
             <div className="flex items-center justify-between">
                 <Link href="/">
+                <div className="flex gap-2 items-center">
+                    <img src="/images/resource.jpeg" 
+                 alt="" 
+                 className="w-10 h-10 rounded-full"
+                 />
                     <h1 className="text-xl text-black dark:text-white font-semibold">
                         Jackony
                     </h1>
+                </div>
+                
                 </Link>
 
                 {mounted && (
