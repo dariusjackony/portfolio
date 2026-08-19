@@ -2,6 +2,7 @@
 import ecommerce from "../assets/luxury.png";
 import Trial from "../assets/trial.png";
 import School from "../assets/school.png";
+import vibes from "../assets/Screenshot from 2026-08-19 21-57-36.png";
 import Image from "next/image";
 import { FaGithub } from "react-icons/fa";
 import { Monitor } from "lucide-react";
@@ -26,28 +27,28 @@ export default function Projects(){
             name: "School website",
             image: School,
             description:
-            "A modern school website designed to showcase academics, school life, admissions, and achievements while providing parents and students with easy access to important information..",
+            "A school website designed to showcase academics, school life, admissions, and achievements while providing parents and students with easy access to important information..",
             technologies: [
             "React",
             "Tailwind CSS",
             
             ],
             liveDemo: "https://",
-            github: "https://github.com/yourusername/business-dashboard",
+            github: "https://github.com/dariusjackony",
         },
         {
             id: 3,
-            name: "Portfolio Website",
-            // image: Trial,
+            name: "Event Experience Website",
+            image: vibes,
             description:
-            "A responsive developer portfolio showcasing projects, skills, and testimonials with dark mode support.",
+                " a  youth-focused entertainment experience. The platform showcases the event, featured artists, upcoming activities, media, and event information through an engaging and responsive digital experience.",
             technologies: [
-            "Next.js",
-            "Tailwind CSS",
-            "Framer Motion",
+                "Next.js",
+                "Tailwind CSS",
+                "Framer Motion",
             ],
-            liveDemo: "https://",
-            github: "https://github.com/yourusername/portfolio",
+            liveDemo: "https://uthando-vibes.vercel.app/",
+            github: "https://github.com/dariusjackony",
         },
     ];
     return(
