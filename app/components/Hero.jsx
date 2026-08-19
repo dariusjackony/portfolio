@@ -18,8 +18,9 @@ export default function Hero(){
                       Here you'll find tutorials, project breakdowns, development tips, and practical insights from building real-world systems.
                     </p>
                 </div>
+                
                 <button className="p-2 px-5 py-4 bg-blue-600 text-white mt-5 rounded">
-                    Let's work together
+                   <a href="https://wa.me/256793648032?text=Hello%20Darius,%20I%20would%20like%20to%20work%20with%20you.">Let's work together</a> 
                 </button>
             </div>
             <div className="relative flex justify-center mt-8 md:mt-0">
