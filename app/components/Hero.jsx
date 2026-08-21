@@ -29,7 +29,7 @@ export default function Hero(){
                     alt="profile" 
                     width={400}
                     height={400}
-                    className="rounded-lg"
+                    className="object-cover rounded-lg"
                 />
 
                 <Link
