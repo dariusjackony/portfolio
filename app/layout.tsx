@@ -4,7 +4,6 @@ import Navbar from "./components/Navbar";
 import Providers from "./provider";
 import { Inter } from "next/font/google";
 import { Analytics } from "@vercel/analytics/next";
-import Script from "next/script";
 
 export const metadata: Metadata = {
   title: "Darius Jackony",
@@ -21,10 +20,12 @@ export const metadata: Metadata = {
     icon: "/logo.png",
   },
 };
+
 const inter = Inter({
   variable: "--font-inter",
   subsets: ["latin"],
 });
+
 export default function RootLayout({
   children,
 }: Readonly<{
@@ -33,20 +34,23 @@ export default function RootLayout({
   return (
     <html
       lang="en"
-       className={inter.variable}
+      className={inter.variable}
       suppressHydrationWarning
     >
-      <body>
-        
-        <Providers>
-          <Script
+      <head>
+        <script
+          defer
           src="https://app.fastbots.ai/embed.js"
           data-bot-id="cmt92yuzm038ro11pqj5cesz4"
-          strategy="afterInteractive"
         />
+      </head>
+
+      <body>
+        <Providers>
           <Navbar />
           {children}
         </Providers>
+
         <Analytics />
       </body>
     </html>
