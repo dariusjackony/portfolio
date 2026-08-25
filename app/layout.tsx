@@ -4,6 +4,7 @@ import Navbar from "./components/Navbar";
 import Providers from "./provider";
 import { Inter } from "next/font/google";
 import { Analytics } from "@vercel/analytics/next";
+import Script from "next/script";
 
 export const metadata: Metadata = {
   title: "Darius Jackony",
@@ -36,7 +37,13 @@ export default function RootLayout({
       suppressHydrationWarning
     >
       <body>
+        
         <Providers>
+          <Script
+          src="https://app.fastbots.ai/embed.js"
+          data-bot-id="cmt92yuzm038ro11pqj5cesz4"
+          strategy="afterInteractive"
+        />
           <Navbar />
           {children}
         </Providers>
