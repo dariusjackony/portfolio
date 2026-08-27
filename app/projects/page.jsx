@@ -3,6 +3,7 @@ import ecommerce from "../assets/luxury.png";
 import Trial from "../assets/trial.png";
 import School from "../assets/school.png";
 import vibes from "../assets/Screenshot from 2026-08-19 21-57-36.png";
+import Agriculrure from "../assets/coffee-plant-1.webp"
 import Image from "next/image";
 import { FaGithub } from "react-icons/fa";
 import { Monitor } from "lucide-react";
@@ -24,6 +25,21 @@ export default function Projects(){
         },
         {
             id: 2,
+            name: "AI-Powered Agriculture Platform",
+            image: Agriculture,
+            description:
+                "An AI-powered agriculture platform designed to help farmers make smarter decisions through intelligent insights, crop guidance, and data-driven farming solutions.",
+            technologies: [
+                "Next.js",
+                "Tailwind CSS",
+                "Python",
+                "AI/ML",
+            ],
+            liveDemo: "https://",
+            github: "https://github.com/dariusjackony",
+            },
+        {
+            id: 3,
             name: "School website",
             image: School,
             description:
@@ -37,7 +53,7 @@ export default function Projects(){
             github: "https://github.com/dariusjackony",
         },
         {
-            id: 3,
+            id: 4,
             name: "Event Experience Website",
             image: vibes,
             description:
