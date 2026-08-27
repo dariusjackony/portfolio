@@ -84,7 +84,7 @@ export default function Projects(){
                 
             </div>
             <div className="mt-8 grid md:grid-cols-2 lg:grid-cols-3 gap-6">
-            {projects.map((item) => (
+             {projects.map((item) => (
                 <div
                 key={item.id}
                 className="overflow-hidden  border border-gray-200 dark:border-gray-700 bg-white dark:bg-gray-800"
@@ -98,7 +98,6 @@ export default function Projects(){
                     <h2 className="text-xl font-semibold text-gray-900 dark:text-white">
                     {item.name}
                     </h2>
-
                     <p className="mt-3 text-gray-600 dark:text-gray-300  leading-relaxed">
                     {item.description}
                     </p>
