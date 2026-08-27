@@ -3,7 +3,7 @@ import ecommerce from "../assets/luxury.png";
 import Trial from "../assets/trial.png";
 import School from "../assets/school.png";
 import vibes from "../assets/Screenshot from 2026-08-19 21-57-36.png";
-import Agriculrure from "../assets/coffee-plant-1.webp"
+import Agriculture from "../assets/coffee-plant-1.webp"
 import Image from "next/image";
 import { FaGithub } from "react-icons/fa";
 import { Monitor } from "lucide-react";
