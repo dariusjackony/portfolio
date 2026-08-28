@@ -8,8 +8,9 @@ export default function Hero(){
             <div>
                 <h2 className="text-3xl font-medium tracking-wide">System Designer. Problem Solver.</h2>
                 <div className="mt-3">
-                    <p className="mt-1 text-gray-700 dark:text-white  leading-relaxed ">
-                      I build software that is fast, secure, and easy to use.
+                    <p className="mt-1 text-gray-700 dark:text-white leading-relaxed">
+                     I'm <span className="font-semibold">Darius Jackony</span>.
+                     I build software that is fast, secure, and easy to use.
                     </p>
                     <p className="mt-1 text-gray-700 dark:text-white leading-relaxed">
                       I'm passionate about web development, software architecture, databases, networking, and IT solutions.
